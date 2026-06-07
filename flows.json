@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "id": "916f143e9ab82ac1",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4ff736f48b1fbecb",
+        "type": "inject",
+        "z": "916f143e9ab82ac1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hola Mundo",
+        "payloadType": "str",
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "6027a8853efe747f"
+            ]
+        ]
+    },
+    {
+        "id": "6027a8853efe747f",
+        "type": "debug",
+        "z": "916f143e9ab82ac1",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    }
+]
